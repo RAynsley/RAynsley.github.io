@@ -4,7 +4,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Ruth Aynsley</title>
         <link rel="stylesheet" href="Style.css">
-        <script src="Functionality.js" defer></script>
+<!--         <script src="Functionality.js" defer></script> -->
     </head>
     <body>
         <nav class="Navbar">
