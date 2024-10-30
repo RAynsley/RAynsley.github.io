@@ -16,14 +16,24 @@
     padding-top: 100px;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    height: auto;
     margin-left: 60px;
+    margin-top: 40px;
+    padding: 20px;
+    width: 100%;
     gap: 20px;
 }
 
 .TextRow {
-    width: 100%; /* Makes .TextRow span across the columns */
-    padding: 10px 0;
-    text-align: center; /* Optional: centers text */
+    display: flex;
+    flex-direction: column; /* Stack the elements vertically on mobile */
+    justify-content: flex-start; /* Align items to the start */
+    align-items: stretch; /* Stretch items to fill the container */
+    width: 100%; /* Make sure it stretches the full width */
+    margin: 0; /* Reset any margins */
+    padding: 10px; 
     background-color: #f2f2f2; /* Optional: background color for visibility */
 }
 
@@ -71,7 +81,8 @@ body {
 
     .TextRow {
         flex-direction: column; /* Stack text vertically on mobile */
-        align-items: flex-start; /* Align items to the start */
+        align-items: stretch;
+        width: 100%;
     }
 
     .TextColumn {
