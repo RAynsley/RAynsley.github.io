@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.Navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    text-align: center;
+}
+
+.OverallContainer {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    gap: 20px;
+}
+
+.TextRow {
+    width: 100%; /* Makes .TextRow span across the columns */
+    padding: 10px 0;
+    text-align: center; /* Optional: centers text */
+    background-color: #f2f2f2; /* Optional: background color for visibility */
+}
+
+.TextColumnContainer {
+    display: flex;
+    flex-direction: row; /* Aligns .TextColumn elements side-by-side */
+    gap: 20px; /* Adds space between columns */
+}
+
+.TextColumn {
+    flex: 1; /* Each .TextColumn takes up equal space */
+    padding: 10px;
+    background-color: #e8e8e8; /* Optional: background for visual separation */
+    border: 1px solid #ccc; /* Optional: border for visual clarity */
+}
+
+.TextColumn h3{
+    text-align: center;
+}
+
+.ImageContainer img {
+    max-width: 30%; /* Ensures the image doesn’t exceed the container width */
+    height: auto; /* Keeps the aspect ratio */
+    display: block; /* Removes any extra space around the image */
+    margin: 40px auto;
+}
+
+body {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
