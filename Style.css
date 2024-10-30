@@ -29,8 +29,8 @@
 .TextRow {
     display: flex;
     flex-direction: column; /* Stack the elements vertically on mobile */
-    justify-content: flex-start; /* Align items to the start */
-    align-items: stretch; /* Stretch items to fill the container */
+    justify-content: center; /* Align items to the center */
+    align-items: center; /* Stretch items to fill the container */
     width: 100%; /* Make sure it stretches the full width */
     margin: 0; /* Reset any margins */
     padding: 10px; 
