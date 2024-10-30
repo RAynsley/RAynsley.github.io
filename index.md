@@ -18,7 +18,7 @@
             </div>
             <div class="TextRow">
                 <h3>About Me</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ipsum neque, ratione ullam qui optio odit voluptate dolorem, dolor unde voluptatum tempore velit, magnam quos. Tempore repellendus voluptates fugiat temporibus.</p>
+                <p>Loremm ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ipsum neque, ratione ullam qui optio odit voluptate dolorem, dolor unde voluptatum tempore velit, magnam quos. Tempore repellendus voluptates fugiat temporibus.</p>
             </div>
             <div class="TextColumnContainer">
                 <div class="TextColumn">
