@@ -45,7 +45,7 @@
 }
 
 .ImageContainer img {
-    max-width: 30%; /* Ensures the image doesn’t exceed the container width */
+    max-width: 100%; /* Ensures the image doesn’t exceed the container width */
     height: auto; /* Keeps the aspect ratio */
     display: block; /* Removes any extra space around the image */
     margin: 40px auto;
@@ -55,4 +55,36 @@ body {
     font-family: "PT Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+@media (max-width: 768px) {
+    .Navbar {
+        padding: 10px; /* Adjust padding for mobile */
+        flex-direction: column; /* Stack items vertically if needed */
+    }
+
+    .OverallContainer {
+        margin-left: 0; /* Reset margins for mobile */
+        padding: 10px; /* Add padding for better spacing */
+        flex-direction: column; /* Stack contents vertically */
+    }
+
+    .TextRow {
+        flex-direction: column; /* Stack text vertically on mobile */
+        align-items: flex-start; /* Align items to the start */
+    }
+
+    .TextColumn {
+        width: 100%; /* Make columns full-width */
+        margin-bottom: 20px; /* Add spacing between columns */
+    }
+
+    /* Adjust h3 and paragraphs for better readability */
+    .TextColumn h3 {
+        font-size: 1.5em; /* Make headings larger */
+    }
+
+    .TextColumn p {
+        font-size: 0.9em; /* Adjust paragraph font size */
+    }
 }
